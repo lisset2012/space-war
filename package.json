@@ -1,0 +1,31 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "Space Ship War",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "Space Ship War"
+  ],
+  "author": "Lisset",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10"
+  }
+}
